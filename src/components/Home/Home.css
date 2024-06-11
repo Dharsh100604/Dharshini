@@ -1,0 +1,33 @@
+.home{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+
+.text-1{
+    font-size: 27px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    margin-left: 50px;
+}
+.text-3 span{
+    color: rgb(20, 190, 220);
+    font-weight: 500;
+}

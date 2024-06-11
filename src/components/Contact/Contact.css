@@ -1,0 +1,85 @@
+.contact.section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .contact_container{
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+    column-gap: 1.875rem;
+    padding-left: 90px;
+  }
+  .contact_item{
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    margin: 20px;
+  }
+  .c_icon{
+    width: 30px;
+    height: 20px;
+    margin-right: 20px;
+  }
+  form{
+    height: 45px;
+    width: 70%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+  .contact_form{
+    display: inline-block;
+    height: 45px;
+    width: 70%;
+    margin-top: 4px;
+    margin-bottom: 15px;
+  }
+  .contact_form-input{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
+  p{
+    text-align: justify;
+    font-size: 20px;
+  }
+  .btn{
+        background: #5d8cc9;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px 30px;
+        border-radius: 6px;
+        margin-top: 20px;
+        margin-bottom: auto;
+        width: fit-content;
+        border: 2px solid #0e53ae;
+        transition: all 0.3s ease;
+  }
+  .btn:hover {
+    color: #0e53ae;
+    background: none;
+}
+  @media screen and (max-width:800px){
+    .contact_container{
+      display: grid;
+      grid-template-columns: 2fr;
+      column-gap: 1.8rem;
+      padding-left: 10px;
+      padding-bottom: 280px;
+    }
+    .btn{
+      height: 90%;
+    }
+    .contact_form-input{
+      height: 110%;
+      gap: 1rem;
+      padding-left: 10px;
+    }
+  }
+  
