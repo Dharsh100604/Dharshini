@@ -1,0 +1,64 @@
+.skills {
+    padding: 80px 70px;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.skills-content .text{
+    font-size: 25px;
+    font-weight: 600;
+}
+.skills-content .column.left {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.skills-content .column.right {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.bars {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bars .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bars .line {
+    height: 8px;
+    background-color: #29aedf;
+    border-radius: 20px;
+}
+
+.bars .line.html {
+    width: 80%;
+}
+
+.bars .line.css { 
+    width: 70%;
+}
+
+.bars .line.javascript {
+    width: 50%;
+}
+
+.bars .line.figma {
+    width: 60%;
+}
+
+.bars .line.mysql {
+    width: 70%;
+}
