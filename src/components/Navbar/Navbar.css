@@ -1,5 +1,5 @@
 .navBar{
-  text-align: left;
+  text-align: right;
   align-items: center;
   position:fixed;
   top: 0%;
@@ -34,7 +34,17 @@
 }
 
 .nav-list-wrapper{
-  width: 40%;
+  width: 90%;
+}
+
+.logo-pic {
+  border-radius: 10%;
+  width: 6%;
+  padding-left: 0 !important;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  margin: 20px; 
 }
 
 .nav-list li a:after{
@@ -72,6 +82,13 @@ nav a{
     padding: 25% 0px 0px 50px;
     transition: 0.3s ease-in-out;
     background-color: #ac79d8;
+  }
+  .logo-pic {
+    border-radius: 10%;
+    width: 20%;
+    right: 30px;
+    position: absolute; 
+    margin: 40px; 
   }
   
   .mobile {
